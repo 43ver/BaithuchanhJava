@@ -18,7 +18,6 @@ public class App {
             } else {
                 System.out.println("Phuong trinh co mot nghiem x= " + (-c / b));
             }
-            return;
         }
         delta = b*b - 4*a*c;
         if (delta >0) {
@@ -28,6 +27,6 @@ public class App {
         } else {
             System.out.println("Phuong trinh vo nghiem");
         }
-
+        sc.close();
     }
 }
