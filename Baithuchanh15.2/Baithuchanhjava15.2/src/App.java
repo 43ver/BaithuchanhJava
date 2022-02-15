@@ -16,5 +16,6 @@ public class App {
         }
              
         System.out.println("Tổng các chữ số = " + tong);
+        sc.close();
     }
 };
